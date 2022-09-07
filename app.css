@@ -72,12 +72,24 @@ thead {
     width: 100%
 }
 
-i:hover {
+/* i:hover {
     font-size: 20px;
     color: aliceblue;
 }
 
 i:active {
+    font-size: inherit;
+    color:rgb(0, 0, 0)
+} */
+
+th:hover {
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+th:active {
+    cursor: pointer;
     font-size: inherit;
     color:rgb(0, 0, 0)
 }
