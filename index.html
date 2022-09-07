@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies App!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="app.css">
 </head>
 
@@ -49,11 +50,11 @@
     </div>
 
     <div class="s4 offset-s4" id="tablearea">
-        <table class="highlight centered responsive-table">
+        <table class="highlight centered responsive-table sortable" id="mytable">
             <thead>
                 <tr>
-                    <th>Movie Title</th>
-                    <th>Movie Rating</th>
+                    <th>Movie Title <i class="fa fa-sort"></i></th>
+                    <th>Movie Rating <i class="fa fa-sort"></i></th>
                     <th>Remove</th>
                 </tr>
             </thead>

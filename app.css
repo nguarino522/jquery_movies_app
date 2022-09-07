@@ -71,3 +71,13 @@ thead {
     margin: auto;
     width: 100%
 }
+
+i:hover {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+i:active {
+    font-size: inherit;
+    color:rgb(0, 0, 0)
+}
