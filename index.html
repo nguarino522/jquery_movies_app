@@ -19,13 +19,13 @@
         <form class="col s12">
             <div class="row">
                 <div class="input-field col s8" id="moviename">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                    <label for="first_name">Movie Title</label>
+                    <input placeholder="Placeholder" id="movietitle" type="text" class="validate" required>
+                    <label for="movietitle">Movie Title</label>
                 </div>
             </div>
             <div class="row">
                 <label>Rating 0-10:</label>
-                <select class="browser-default">
+                <select class="browser-default" id="movierating" required>
                     <option value="" disabled selected>Choose your option</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -62,24 +62,23 @@
                 <tr>
                     <td>Top Gun: Maverick</td>
                     <td>9</td>
-                    <td><a class="waves-effect waves-light btn-small">Remove</a></td>
+                    <td><a class="waves-effect waves-light btn-small removebtn" id="removebtn">Remove</a></td>
                 </tr>
                 <tr>
                     <td>Thor: The Dark World</td>
                     <td>5</td>
-                    <td><a class="waves-effect waves-light btn-small">Remove</a></td>
+                    <td><a class="waves-effect waves-light btn-small removebtn" id="removebtn">Remove</a></td>
                 </tr>
                 <tr>
                     <td>Star Wars: The Force Awakens</td>
                     <td>7</td>
-                    <td><a class="waves-effect waves-light btn-small">Remove</a></td>
+                    <td><a class="waves-effect waves-light btn-small removebtn" id="removebtn">Remove</a></td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
