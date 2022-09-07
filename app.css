@@ -1,0 +1,73 @@
+:root {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    font-size: 50px;
+    padding: 8px;
+    margin: 8px;
+}
+
+h2 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px;
+    margin: 8px;
+}
+
+#title {
+    background: rgb(22, 153, 153);
+    width: 30%;
+    margin: auto;
+    outline: 5px dotted rgb(0, 0, 0);
+}
+
+/* #moviename {
+    
+} */
+
+/* #ratingnum {
+    background: rgb(22, 153, 153);
+} */
+
+#form {
+    background: rgb(55, 56, 56);
+    width: 40%;
+    padding: 10px;
+}
+
+
+.input-field [type=text] {
+    color: white;
+}
+
+table {
+    background: rgb(71, 128, 128);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background: rgb(92, 97, 97);
+}
+
+#tablearea {
+    margin: auto;
+    width: 100%
+}
